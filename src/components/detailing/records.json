@@ -1,0 +1,341 @@
+[
+    {
+        "id": 1,
+        "product":"3TONE-TC-SYRUP",
+        "type":"painkillers",
+        "image": "images/3TONE-TC-SYRUP.jpg"
+
+    },
+
+    {
+        "id": 2,
+        "product":"ANTI-CC-SYRUP",
+        "type":"painkillers",
+        "image": "images/ANTI-CC-TABS.jpg"
+
+    },
+
+    {
+        "id": 3,
+        "product":"ANTIFLAM-AQ",
+        "type":"painkillers",
+        "image": "images/ANTIFLAM-AQ.jpg"
+
+    },
+
+    {
+        "id": 4,
+        "product":"CARISPOR-TABS",
+        "type":"painkillers",
+        "image": "images/CARISPOR-TABS.jpg"
+
+    },
+
+    {
+        "id": 5,
+        "product":"DOLIDE-COLD-TABS",
+        "type":"painkillers",
+        "image": "images/DOLIDE-COLD-TABS.jpg"
+
+    },
+
+    {
+        "id": 6,
+        "product":"DOLIDE-SYRUP",
+        "type":"painkillers",
+        "image": "images/DOLIDE-SYRUP.jpg"
+
+    },
+
+    {
+        "id": 7,
+        "product":"DOLIDE-TABS",
+        "type":"painkillers",
+        "image": "images/DOLIDE-TABS.jpg"
+
+    },
+
+    {
+        "id": 8,
+        "product":"DOLORIN-TABS",
+        "type":"painkillers",
+        "image": "images/DOLORIN-TABS.jpg"
+
+    },
+
+    {
+        "id": 9,
+        "product":"DYLOCK-LB-TABS",
+        "type":"painkillers",
+        "image": "images/DYLOCK-LB-TABS.jpg"
+
+    },
+
+    {
+        "id": 10,
+        "product":"ELCIDE-O-SYRUP",
+        "type":"painkillers",
+        "image": "images/ELCIDE-O-SYRUP.jpg"
+
+    },
+
+    {
+        "id": 11,
+        "product":"ELCIDE-TABS",
+        "type":"painkillers",
+        "image": "images/ELCIDE-TABS.jpg"
+
+    },
+
+    {
+        "id": 12,
+        "product":"ELIVIT-M-TABS",
+        "type":"painkillers",
+        "image": "images/ELIVIT-M-TABS.jpg"
+
+    },
+
+    {
+        "id": 13,
+        "product":"ELPICOX-TABS",
+        "type":"painkillers",
+        "image": "images/ELPICOX-TABS.jpg"
+
+    },
+
+    {
+        "id": 14,
+        "product":"ELPIP-TZ-TABS",
+        "type":"painkillers",
+        "image": "images/ELPIP-TZ-TABS.jpg"
+
+    },
+
+    {
+        "id": 15,
+        "product":"ELPIZ-50-TABS",
+        "type":"painkillers",
+        "image": "images/ELPIZ-50-TABS.jpg"
+
+    },
+
+    {
+        "id": 16,
+        "product":"EMFLAZ-TABS",
+        "type":"painkillers",
+        "image": "images/EMFLAZ-TABS.jpg"
+
+    },
+
+    {
+        "id": 17,
+        "product":"EMTRIAXONE-INJECTION",
+        "type":"painkillers",
+        "image": "images/EMTRIAXONE-INJECTION.jpg"
+
+    },
+
+    
+
+    {
+        "id": 18,
+        "product":"ENERQUIK-POWERD",
+        "type":"painkillers",
+        "image": "images/ENERQUIK-POWERD.jpg"
+
+    },
+
+    {
+        "id": 19,
+        "product":"ERAPOD-TABS",
+        "type":"painkillers",
+        "image": "images/ERAPOD-TABS.jpg"
+
+    },
+
+    {
+        "id": 20,
+        "product":"ERAZITH-TABS",
+        "type":"painkillers",
+        "image": "images/ERAZITH-TABS.jpg"
+
+    },
+
+    {
+        "id": 21,
+        "product":"HAEMIRON-SYRUP",
+        "type":"syrup",
+        "image": "images/HAEMIRON-SYRUP.jpg"
+
+    },
+
+    {
+        "id": 22,
+        "product":"HAEMIRON-XT-TABS",
+        "type":"painkillers",
+        "image": "images/HAEMIRON-XT-TABS.jpg"
+
+    },
+
+    {
+        "id": 23,
+        "product":"MUCINE-X",
+        "type":"painkillers",
+        "image": "images/MUCINE-X.jpg"
+
+    },
+
+    {
+        "id": 24,
+        "product":"MUCORIN-TABS",
+        "type":"painkicoldllers",
+        "image": "images/MUCORIN-TABS.jpg"
+
+    },
+
+    {
+        "id": 25,
+        "product":"NOTEL-TABS",
+        "type":"painkillers",
+        "image": "images/NOTEL-TABS.jpg"
+
+    },
+
+    {
+        "id": 26,
+        "product":"NUCONAZOLE",
+        "type":"painkillers",
+        "image": "images/NUCONAZOLE.jpg"
+
+    },
+
+    {
+        "id": 27,
+        "product":"OFX",
+        "type":"cold",
+        "image": "images/OFX.jpg"
+
+    },
+
+    {
+        "id": 28,
+        "product":"OMNICAL-D3-TABS",
+        "type":"painkicoldllers",
+        "image": "images/OMNICAL-D3-TABS.jpg"
+
+    },
+
+    {
+        "id": 29,
+        "product":"OMNICAL-K2+",
+        "type":"syrup",
+        "image": "images/OMNICAL-K2+.jpg"
+
+    },
+
+    {
+        "id": 30,
+        "product":"OROMOL-ADULTS-TABS",
+        "type":"syrup",
+        "image": "images/OROMOL-ADULTS-TABS.jpg"
+
+    },
+
+    {
+        "id": 31,
+        "product":"OROMOL-KIDS-SYRUP",
+        "type":"syrup",
+        "image": "images/OROMOL-KIDS-SYRUP.jpg"
+
+    },
+
+    {
+        "id": 32,
+        "product":"ORONAC",
+        "type":"painkillers",
+        "image": "images/ORONAC.jpg"
+
+    },
+
+    {
+        "id": 33,
+        "product":"SEDOREX-DX",
+        "type":"painkillers",
+        "image": "images/SEDOREX-DX.jpg"
+
+    },
+
+    {
+        "id": 34,
+        "product":"SYNARIN",
+        "type":"cold",
+        "image": "images/SYNARIN.jpg"
+
+    },
+
+    {
+        "id": 35,
+        "product":"TRIVDO-Z",
+        "type":"painkicoldllers",
+        "image": "images/TRIVDO-Z.jpg"
+
+    },
+
+    {
+        "id": 36,
+        "product":"TWOCEF",
+        "type":"painkicoldllers",
+        "image": "images/TWOCEF.jpg"
+
+    },
+
+    {
+        "id": 37,
+        "product":"ULTIFIX-CV-SYRUP",
+        "type":"painkillers",
+        "image": "images/ULTIFIX-CV-SYRUP.jpg"
+
+    },
+
+    {
+        "id": 38,
+        "product":"ULTIFIX-CV-TABS",
+        "type":"painkillers",
+        "image": "images/ULTIFIX-CV-TABS.jpg"
+
+    },
+
+    {
+        "id": 39,
+        "product":"ULTIFIX-KIDS",
+        "type":"painkillers",
+        "image": "images/ULTIFIX-KIDS.jpg"
+
+    },
+
+    {
+        "id": 40,
+        "product":"ULTIFIX-TABS",
+        "type":"cold",
+        "image": "images/ULTIFIX-TABS.jpg"
+
+    },
+
+    {
+        "id": 41,
+        "product":"ULTIKOF-SYRUP",
+        "type":"cold",
+        "image": "images/ULTIKOF-SYRUP.jpg"
+
+    },
+
+    {
+        "id": 42,
+        "product":"VITACIT-Z-TABS",
+        "type":"painkillers",
+        "image": "images/VITACIT-Z-TABS.jpg"
+
+    }
+
+]
+

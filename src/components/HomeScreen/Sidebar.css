@@ -1,0 +1,22 @@
+.link{
+    display: flex;
+    color: #fff;
+    padding: 15px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background: rgba(255,255,255,0.18);
+    color: #adeaec;
+    transition: all 0.5s;
+}
+.active{
+    
+    background:rgba(80, 65, 65, 0.18);
+    color: #03f4fc;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+

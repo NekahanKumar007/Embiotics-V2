@@ -82,8 +82,11 @@ setTransferImages(transferSelectedImages)
 
   };
 
- function moveToSidebar(){
-  console.log('move')
+ function checkImages(){
+ 
+  if(selectedImages.length ==0){
+    return false
+  }
 
   }
 
@@ -115,7 +118,7 @@ setTransferImages(transferSelectedImages)
 <li  className="text-white rounded-md mt-2 ">
             
 
-                <span className={`bg-dark-purple hover:bg-light-white hover:text-black rounded-md py-2 focus:outline-none text-base p-12 font-medium flex-1 ${highlighted ? 'ring-2 ring-yellow-500' : ''}`} value={record.value} onClick={productTypeSelect} >{record.value}</span>
+                <span className={`bg-dark-purple hover:bg-sky-blue hover:text-black rounded-md py-2 focus:outline-none text-base p-12 font-medium flex-1 ${highlighted ? 'ring-2 ring-yellow-500' : ''}`} value={record.value} onClick={productTypeSelect} >{record.value}</span>
              
 </li>
  );
@@ -129,7 +132,7 @@ setTransferImages(transferSelectedImages)
               products.map((record) => {
                 return (
   <li className="text-black font-medium text-sm pt-4 " key={record.id} >
-  <img src={record.image} value={record.product} alt={record.product} className={`${highlighted ? 'ring-2 ring-yellow-500' : ''}`} onClick={handleImageSelect} />
+  <img src={record.image} value={record.product} alt={record.product} className={`${selectedImages?.id === record.image ? 'ring-2 ring-blue-500' : ''}`} onClick={handleImageSelect} />
                     {record.product}
   </li>
   );
@@ -155,7 +158,7 @@ setTransferImages(transferSelectedImages)
 
 </div>
 <NavLink to={'/sidebar'} className="link" activeclassName="active">
-<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-6 py-3 p-10 rounded-md pb-2 fixed  right-4">
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-6 py-3 p-10 rounded-md pb-2 fixed  right-4" onClick={checkImages} disabled = {true ? selectedImages.length== 0 : false}>
   Start Detailing
 </button>
 </NavLink>

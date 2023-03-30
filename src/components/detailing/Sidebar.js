@@ -12,6 +12,7 @@ import Scrollbar from 'react-scrollbar'
   const [selectedOption, setSelectedOption] = useState('');
 
 let Records = JSON.parse(window.sessionStorage.getItem("selectedImages"));
+  //window.sessionStorage.removeItem("selectedImages");
   const [products, setProducts] = useState(Records)
 
  

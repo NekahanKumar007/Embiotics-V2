@@ -110,7 +110,7 @@ setTransferImages(transferSelectedImages)
 </div>
 <ul className='pt-1 inline-flex gap-x-4' >
 <li className="text-white rounded-md mt-2" >
-<span className="bg-dark-purple hover:bg-light-white hover:text-black rounded-md py-2 focus:outline-none text-base p-12 font-medium flex-1" onClick={productTypeSelect} >All</span>
+<span className="bg-dark-purple hover:bg-sky-blue hover:text-black rounded-md py-2 focus:outline-none text-base p-12 font-medium flex-1" onClick={productTypeSelect} >All</span>
 </li>
 {productType &&
   productType.map((record) => {
@@ -118,7 +118,7 @@ setTransferImages(transferSelectedImages)
 <li  className="text-white rounded-md mt-2 ">
             
 
-                <span className={`bg-dark-purple hover:bg-sky-blue hover:text-black rounded-md py-2 focus:outline-none text-base p-12 font-medium flex-1 ${highlighted ? 'ring-2 ring-yellow-500' : ''}`} value={record.value} onClick={productTypeSelect} >{record.value}</span>
+                <span className="bg-dark-purple hover:bg-sky-blue hover:text-black rounded-md py-2 focus:outline-none text-base p-12 font-medium flex-1" value={record.value} onClick={productTypeSelect} >{record.value}</span>
              
 </li>
  );

@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import  API from "../api";
+import  {API, setTokenHeader} from "../api";
 
 export const login = createAsyncThunk(
   "auth/login",
@@ -12,6 +12,9 @@ export const login = createAsyncThunk(
       }});
 
       if(response.data.status=="success"){
+        let token = response.data.results.token;
+        localStorage.setItem("token", token)
+        setTokenHeader(token)
       toast.success("Login Successfully");
        
        navigate("/dashboard");

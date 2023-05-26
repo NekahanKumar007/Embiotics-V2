@@ -4,6 +4,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { login } from "../../redux/features/authSlice";
 import { toast } from "react-toastify";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Swal from "sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
 
 const initialState = {
     email: "",
@@ -25,15 +29,60 @@ export default function Login() {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        if (email && password) {
-          dispatch(login({ formValue,navigate, toast }));
-        }
+ // Check for location permission
+ if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      // Location permission granted
+
+      if (email && password) {
+        dispatch(login({ formValue,navigate, toast }));
+      }
+    },
+    () => {
+      // Location permission denied
+    //  dispatch(setAllowLocation(false));
+    // console.log('location denied');
+    Swal.fire({
+      title: "Please Enable Location From Browser",
+      icon: "warning",
+      iconHtml: "!",
+      showConfirmButton: true,
+      customClass: {
+        popup: "animate-swal-center",
+      },
+    });
+      // Handle error or show a notification to the user
+    }
+  );
+} else {
+  // console.log('Geolocation is not supported by the browser');
+  Swal.fire({
+    title: "Geo-Location Is Not Supported In This Browser",
+    icon: "warning",
+    iconHtml: "!",
+    showConfirmButton: true,
+    customClass: {
+      popup: "animate-swal-center",
+    },
+  });
+  // Geolocation is not supported by the browser
+ 
+}
+      
+
+
+        
       };
       const onInputChange = (e) => {
         let { name, value } = e.target;
         setFormValue({ ...formValue, [name]: value });
         console.log(formValue)
       };
+
+      // allow location
+
+
 
   return (
     <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
@@ -54,7 +103,7 @@ export default function Login() {
                 </div>
                
                 <button className='w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg'>SIGNIN</button>
-                
+                <ToastContainer />
             </form>
         </div>
     </div>

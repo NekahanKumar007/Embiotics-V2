@@ -14,13 +14,15 @@ export const login = createAsyncThunk(
       if(response.data.status=="success"){
         let token = response.data.results.token;
         localStorage.setItem("token", token)
+
+        localStorage.setItem("empDetails", JSON.stringify(response.data.results))
         setTokenHeader(token)
       toast.success("Login Successfully");
        
        navigate("/dashboard");
       }else{
         console.log('login failed')
-        toast.success("Login Failed");
+        toast.error("Login Failed");
       }
       return response.data;
     } catch (err) {
@@ -29,6 +31,8 @@ export const login = createAsyncThunk(
     }
   }
 );
+
+
 
 const authSlice = createSlice({
   name: "auth",

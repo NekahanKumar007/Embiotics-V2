@@ -3,3 +3,8 @@
   flex-direction: row;
   height: 100vh;
 }
+
+.disabled-li {
+  pointer-events: none; /* Disable pointer events to prevent interactions */
+  opacity: 0.5; /* Adjust the opacity to visually indicate it's disabled */
+}

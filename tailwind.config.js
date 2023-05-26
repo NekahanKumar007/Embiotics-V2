@@ -5,6 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'swal-center': 'swal-center 0.3s',
+      },
+      keyframes: {
+        'swal-center': {
+          '0%, 100%': { transform: 'translateY(-50%)' },
+          '50%': { transform: 'translateY(-55%)' },
+        },
+      },
       colors: {
         "dark-purple": "#081A51",
         "dark-blue": "rgb(6,72,98)",

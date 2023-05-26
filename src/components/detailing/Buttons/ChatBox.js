@@ -110,8 +110,8 @@ function ChatBox() {
     <>
       <button
         onClick={handleModalOpen}
-        className="mt-4 bg-blue-500 hover:bg-blue-600 text-white rounded-full py-4 px-6  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-        <BsFillChatLeftTextFill size={30} />
+        className="flex items-center justify-center px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 focus:outline-none">
+        <BsFillChatLeftTextFill className="mx-2" size={24} />
       </button>
       {isOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-gray-500 bg-opacity-50 flex justify-center items-center">
